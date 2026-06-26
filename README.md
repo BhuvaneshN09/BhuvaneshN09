@@ -19,22 +19,15 @@ AI-powered waste-sorting assistant.
       <p>A webcam assistant that classifies waste as recycling, compost, garbage, or unknown.</p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/BhuvaneshN09/Manim">Manim</a></h3>
-      <p>Animated explorations that make mathematical ideas easier to see.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/BhuvaneshN09/DevOps">DevOps</a></h3>
-      <p>Infrastructure-as-code and automation experiments.</p>
-    </td>
-  </tr>
 </table>
 
 ### tools i use
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,terraform,docker,linux&theme=dark" alt="Python, Git, GitHub, VS Code, Terraform, Docker, and Linux" />
+  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,arduino,terraform,docker,linux&theme=dark" alt="Python, Git, GitHub, VS Code, Arduino, Terraform, Docker, and Linux" />
+  <a href="https://antigravity.google/">
+    <img height="48" src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" title="Google Antigravity" />
+  </a>
 </p>
 
 ### activity
