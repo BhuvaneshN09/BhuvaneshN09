@@ -1,4 +1,4 @@
-<h1 align="left">hi, i'm Bhuvanesh 👋</h1>
+<h1 align="left">Hello, i'm Bhuvanesh :)</h1>
 
 I like turning interesting ideas into working software and hardware.
 
