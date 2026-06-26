@@ -1,6 +1,6 @@
 <h1 align="left">hi, i'm Bhuvanesh 👋</h1>
 
-I like turning interesting ideas into working software—from AI experiments and
+I like turning interesting ideas into working software, from AI experiments and
 math animations to infrastructure and game engines.
 
 Right now, I'm building a [chess engine](https://github.com/BhuvaneshN09/Chess-Engine)
