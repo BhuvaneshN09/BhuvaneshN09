@@ -33,6 +33,6 @@ AI-powered waste-sorting assistant.
 ### activity
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BhuvaneshN09&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="Bhuvanesh's GitHub stats" />
+ 
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhuvaneshN09&layout=compact&hide_border=true&theme=github_dark" alt="Bhuvanesh's most-used languages" />
 </p>
