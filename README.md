@@ -3,7 +3,7 @@
 I like turning interesting ideas into working software and hardware.
 
 Right now, I'm building a [chess engine](https://github.com/BhuvaneshN09/Chess-Engine)
-and improving [WasteVision](https://github.com/BhuvaneshN09/WasteVision), an
+and improving [Binlytic](https://github.com/BhuvaneshN09/WasteVision), an
 AI-powered waste-sorting assistant.
 
 ### what i'm building
