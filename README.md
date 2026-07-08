@@ -6,6 +6,9 @@ Right now, I'm building a [chess engine](https://github.com/BhuvaneshN09/Chess-E
 and improving [Binlytic](https://github.com/BhuvaneshN09/WasteVision), an
 AI-powered waste-sorting assistant.
 
+If you have any questions about my work or would like to collaborate with me, reach out to
+[My Email](mailto:bhuvanallapati@gmail.com)
+
 ### what i'm building
 
 <table>
