@@ -30,7 +30,7 @@ AI-powered waste-sorting assistant.
   </a>
 </p>
 
-### activity
+### Thank You For Stopping By!
 
 <p>
  
