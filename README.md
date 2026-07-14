@@ -18,7 +18,7 @@ If you have any questions about my work or would like to collaborate with me, re
       <p>A chess engine with position evaluation, alpha-beta search, and UCI support.</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/BhuvaneshN09/WasteVision">Binlytic</a></h3>
+      <h3><a href="https://github.com/BhuvaneshN09/BInlyticAI">Binlytic</a></h3>
       <p>A webcam assistant that classifies waste as recycling, compost, garbage, or unknown.</p>
     </td>
   </tr>
