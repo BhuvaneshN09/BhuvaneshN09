@@ -1,4 +1,4 @@
-<h1 align="left">Hello.I am Bhuvanesh. A highschool student and developer</h1>
+<h1 align="left">Hello. I am Bhuvanesh. A highschool student and developer</h1>
 
 I like turning interesting ideas into working software and hardware.
 
