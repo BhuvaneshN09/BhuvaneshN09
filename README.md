@@ -6,16 +6,52 @@
   <img src="assets/heading-about.svg" alt="about" width="600" />
 </p>
 
-> A GitHub profile that generates itself — the portrait above and the<br />
-> graphics below are drawn by this repository's own code, on a schedule,<br />
-> with zero third-party requests.
+<h1 align="left">Hello. I am Bhuvanesh. A highschool student and developer</h1>
 
-Every pixel on this page is produced inside this repo by a scheduled<br />
-GitHub Action. The portrait is a photo run through a background cutout,<br />
-a contrast curve, and a 13-character brightness ramp, then typed onto<br />
-the page with SMIL animation. The graphics below are pulled fresh from<br />
-the GitHub GraphQL API every night and redrawn as plain SVG — no<br />
-`github-readme-stats`, no widget service that can rate-limit or go dark.
+I like turning interesting ideas into working software and hardware.
+
+Right now, I'm building a [chess engine](https://github.com/BhuvaneshN09/Chess-Engine)
+and improving [Binlytic](https://github.com/BhuvaneshN09/BinlyticAI), an
+AI-powered waste-sorting assistant.
+
+If you have any questions about my work or would like to collaborate with me, reach out to
+[my email](mailto:bhuvanallapati@gmail.com).
+
+### what i'm building
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/BhuvaneshN09/Chess-Engine">Chess Engine</a></h3>
+      <p>A chess engine with position evaluation, alpha-beta search, and UCI support.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/BhuvaneshN09/BInlyticAI">Binlytic</a></h3>
+      <p>A webcam assistant that classifies waste as recycling, compost, garbage, or unknown.</p>
+    </td>
+  </tr>
+</table>
+
+### tools i use
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,arduino,terraform,docker,linux&theme=dark" alt="Python, Git, GitHub, VS Code, Arduino, Terraform, Docker, and Linux" />
+  <a href="https://antigravity.google/">
+    <img height="48" src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" title="Google Antigravity" />
+  </a>
+</p>
+
+> The section below this line is a GitHub profile that generates itself —<br />
+> drawn by this repository's own code, on a schedule, with zero<br />
+> third-party requests for anything below.
+
+Every pixel below is produced inside this repo by a scheduled GitHub<br />
+Action. The portrait at the top of this page is a photo run through a<br />
+background cutout, a contrast curve, and a 13-character brightness ramp,<br />
+then typed onto the page with SMIL animation. The graphics below are<br />
+pulled fresh from the GitHub GraphQL API every night and redrawn as<br />
+plain SVG — no `github-readme-stats`, no widget service that can<br />
+rate-limit or go dark.
 
 <p align="center">
   <img src="assets/heading-live-stats.svg" alt="live stats" width="600" />
