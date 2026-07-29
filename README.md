@@ -41,17 +41,7 @@ If you have any questions about my work or would like to collaborate with me, re
   </a>
 </p>
 
-> The section below this line is a GitHub profile that generates itself —<br />
-> drawn by this repository's own code, on a schedule, with zero<br />
-> third-party requests for anything below.
 
-Every pixel below is produced inside this repo by a scheduled GitHub<br />
-Action. The portrait at the top of this page is a photo run through a<br />
-background cutout, a contrast curve, and a 13-character brightness ramp,<br />
-then typed onto the page with SMIL animation. The graphics below are<br />
-pulled fresh from the GitHub GraphQL API every night and redrawn as<br />
-plain SVG — no `github-readme-stats`, no widget service that can<br />
-rate-limit or go dark.
 
 <p align="center">
   <img src="assets/heading-live-stats.svg" alt="live stats" width="600" />
