@@ -61,7 +61,4 @@ If you have any questions about my work or would like to collaborate with me, re
   <img src="assets/heading-credits.svg" alt="credits" width="600" />
 </p>
 
-- Portrait pipeline based on the ASCII Portrait README Guide, with a<br />
-  darkening-curve fix for washed-out faces.
-- Typeface: JetBrains Mono, [SIL OFL 1.1](fonts/OFL.txt).
-- All the code that draws this page lives in this repository.
+- feel free to look through my projects!
