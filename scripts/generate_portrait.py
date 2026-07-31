@@ -8,7 +8,6 @@ If --input is omitted, a synthetic placeholder headshot is generated so the
 pipeline can be exercised end-to-end before a real photo is available.
 """
 import argparse
-import base64
 import sys
 from pathlib import Path
 
@@ -16,17 +15,13 @@ import cv2
 import numpy as np
 from PIL import Image
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ascii_type import RAMP, render_svg
+
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "fonts"
 
-# Dark end last: v=255 (white/background) -> ' ', v=0 (black/shadow) -> '@'.
-RAMP = " .`:-=+*cs#%@"
-
 COLS = 90
-CHAR_W = 7.74
-FONT_SIZE = 12.9
-LINE_HEIGHT = CHAR_W * 2 * 0.833  # ~1.667 * font-size, matches monospace vertical rhythm
-FILL = "#c9d1d9"
 
 
 def make_placeholder(size=1400):
@@ -90,64 +85,6 @@ def to_ascii_rows(gray: np.ndarray, cols: int = COLS) -> list[str]:
     return lines
 
 
-def font_face_css() -> str:
-    def b64(name):
-        return base64.b64encode((FONTS / name).read_bytes()).decode("ascii")
-
-    return f"""
-    <style>
-      @font-face {{
-        font-family: 'RampMono';
-        src: url(data:font/woff2;base64,{b64('ramp.woff2')}) format('woff2');
-        font-weight: 400; font-style: normal;
-      }}
-      text {{ font-family: 'RampMono', monospace; font-size: {FONT_SIZE}px; fill: {FILL}; white-space: pre; }}
-    </style>"""
-
-
-def render_svg(lines: list[str]) -> str:
-    width = COLS * CHAR_W
-    height = len(lines) * LINE_HEIGHT
-    body = []
-    for i, line in enumerate(lines):
-        y = (i + 1) * LINE_HEIGHT - LINE_HEIGHT * 0.25
-        clip_id = f"clip{i}"
-        text_w = len(line) * CHAR_W
-        begin = round(i * 0.09, 2)
-        dur = 0.5
-        body.append(f"""
-    <clipPath id="{clip_id}">
-      <rect x="0" y="{y - LINE_HEIGHT:.2f}" width="0" height="{LINE_HEIGHT * 2:.2f}">
-        <animate attributeName="width" from="0" to="{text_w:.2f}" begin="{begin}s" dur="{dur}s" fill="freeze" />
-      </rect>
-    </clipPath>""")
-    defs = "\n".join(body)
-
-    rows = []
-    for i, line in enumerate(lines):
-        y = (i + 1) * LINE_HEIGHT - LINE_HEIGHT * 0.25
-        clip_id = f"clip{i}"
-        text_w = len(line) * CHAR_W
-        begin = round(i * 0.09, 2)
-        esc = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        rows.append(f"""
-    <g clip-path="url(#{clip_id})">
-      <text x="0" y="{y:.2f}" xml:space="preserve">{esc}</text>
-      <rect x="0" y="{y - LINE_HEIGHT * 0.75:.2f}" width="{CHAR_W:.2f}" height="{LINE_HEIGHT * 0.9:.2f}" fill="{FILL}">
-        <animate attributeName="x" from="0" to="{text_w:.2f}" begin="{begin}s" dur="0.5s" fill="freeze" />
-        <set attributeName="opacity" to="0" begin="{begin + 0.5}s" fill="freeze" />
-      </rect>
-    </g>""")
-
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width:.2f} {height:.2f}" width="460">
-  <defs>{font_face_css()}
-{defs}
-  </defs>
-  <rect width="100%" height="100%" fill="none" />
-{"".join(rows)}
-</svg>"""
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", type=Path, default=None)
@@ -166,7 +103,7 @@ def main():
     lines = to_ascii_rows(gray, cols=args.cols)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(render_svg(lines), encoding="utf-8")
+    args.output.write_text(render_svg(lines, cols=args.cols), encoding="utf-8")
     print(f"wrote {args.output} ({len(lines)} rows x {args.cols} cols)")
 
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portrait.svg" alt="ASCII portrait" width="460" />
+  <img src="assets/name.svg" alt="Bhuvanesh, typed in block ASCII" width="530" />
 </p>
 
 <p align="center">
