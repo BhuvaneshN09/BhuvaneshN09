@@ -44,7 +44,7 @@ If you have any questions about my work or would like to collaborate with me, re
 
 
 <p align="center">
-  <img src="assets/heading-live-stats.svg" alt="live stats" width="600" />
+ 
 </p>
 
 <p align="center">
