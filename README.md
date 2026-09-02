@@ -2,9 +2,13 @@
 
 **Student developer building reliable developer tools and practical AI systems.**
 
+<p>
+  <img src="https://github.com/BhuvaneshN09/BhuvaneshN09/blob/main/assets/Untitled%20design.png?raw=true" alt="Bhuvanesh project illustration" width="180" />
+</p>
+
 I care about clear interfaces, validation, reproducible experiments, and software that is useful outside a demo. My main language is Python; I also work with TypeScript, Linux, and embedded/drone control concepts.
 
-## Flagship project
+## Flagship projects
 
 ### [FuncWire](https://github.com/BhuvaneshN09/funcwire)
 
@@ -17,15 +21,15 @@ Provider-neutral contracts for typed Python callables. FuncWire turns ordinary f
 
 The repository includes CI, typed-package metadata, a release audit, and a test suite with a 90% minimum branch-coverage gate. I publish measured benchmark and coverage results with releases rather than guessing at performance numbers.
 
+### [BinlyticAI](https://github.com/BhuvaneshN09/BinlyticAI)
+
+An AI-assisted waste-sorting project focused on making recycling decisions easier to understand. Model accuracy and latency should be reported from a reproducible evaluation set before being presented as production metrics.
+
 ## Selected work
 
 ### [Bhuvanesh Aerospace Controls](https://github.com/BhuvaneshN09/bhuvanesh-aerospace-controls)
 
 An educational, dependency-light quadrotor PID toolkit: bounded PID control, X-frame motor mixing, deterministic roll and three-axis attitude simulation, CSV telemetry, and optional Matplotlib plots. It is explicitly a simulation and is **not flight-certified**.
-
-### [BinlyticAI](https://github.com/BhuvaneshN09/BinlyticAI)
-
-An AI-assisted waste-sorting project focused on making recycling decisions easier to understand. Model accuracy and latency should be reported from a reproducible evaluation set before being presented as production metrics.
 
 ### [Chess Engine](https://github.com/BhuvaneshN09/Chess-Engine)
 
