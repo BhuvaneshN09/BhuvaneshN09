@@ -2,8 +2,10 @@
 
 **Student developer building reliable developer tools and practical AI systems.**
 
-<p>
-  <img src="https://github.com/BhuvaneshN09/BhuvaneshN09/blob/main/assets/Untitled%20design.png?raw=true" alt="Bhuvanesh project illustration" width="180" />
+<p align="center">
+  <img src="https://github.com/BhuvaneshN09/BhuvaneshN09/blob/main/assets/Untitled%20design.png?raw=true" alt="Project illustration" width="180" />
+  <img src="https://github.com/BhuvaneshN09/BhuvaneshN09/blob/main/assets/Drone.png?raw=true" alt="Aerospace drone project" width="180" />
+  <img src="https://github.com/BhuvaneshN09/BhuvaneshN09/blob/main/assets/Blind%20Person%281%29.png?raw=true" alt="Accessibility project" width="180" />
 </p>
 
 I care about clear interfaces, validation, reproducible experiments, and software that is useful outside a demo. My main language is Python; I also work with TypeScript, Linux, and embedded/drone control concepts.
