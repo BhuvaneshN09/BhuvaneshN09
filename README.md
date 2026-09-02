@@ -1,65 +1,48 @@
-<p align="center">
-  <img src="assets/name.svg" alt="Bhuvanesh, typed in block ASCII" width="530" />
-</p>
+# Bhuvanesh Nallapati
 
-<p align="center">
-  <img src="assets/heading-about.svg" alt="about" width="600" />
-</p>
+**Student developer building reliable developer tools and practical AI systems.**
 
-<h1 align="left">Hello.</h1>
-<h2 align=";left"> I'm a high school student and developer who likes building software. Feel free to look through my repositories! </h2>
+I care about clear interfaces, validation, reproducible experiments, and software that is useful outside a demo. My main language is Python; I also work with TypeScript, Linux, and embedded/drone control concepts.
 
-I like turning interesting ideas into working software and hardware.
+## Flagship project
 
-Right now, I'm building a JSON Schema [Python Package](https://github.com/BhuvaneshN09/funcwire)
-and improving [Binlytic](https://github.com/BhuvaneshN09/BinlyticAI), an
-AI-powered waste-sorting assistant.
+### [FuncWire](https://github.com/BhuvaneshN09/funcwire)
 
-If you have any questions about my work or would like to collaborate with me, reach out to
-[my email](mailto:bhuvanallapati@gmail.com).
+Provider-neutral contracts for typed Python callables. FuncWire turns ordinary functions into deterministic JSON Schema contracts, validates nested data strictly, binds Python signatures exactly, supports sync/async invocation, and exports provider-neutral tool metadata.
 
-### what i'm building
+- **Zero runtime dependencies** and Python 3.10+ support
+- Supports positional-only, keyword-only, variadic, dataclass, TypedDict, Enum, UUID, date/time, Decimal, `Literal`, `Annotated`, and union annotations
+- Includes sync/async APIs, result validation, versioned serialization, compatibility diffs, and OpenAI/Anthropic/Gemini/MCP-shaped exports without importing provider SDKs
+- [Architecture](https://github.com/BhuvaneshN09/funcwire/blob/main/docs/design/architecture.md) · [API and examples](https://github.com/BhuvaneshN09/funcwire#readme) · [Benchmarks](https://github.com/BhuvaneshN09/funcwire/tree/main/benchmarks)
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/BhuvaneshN09/Chess-Engine">Chess Engine</a></h3>
-      <p>A chess engine with position evaluation, alpha-beta search, and UCI support.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/BhuvaneshN09/BInlyticAI">Binlytic</a></h3>
-      <p>A webcam assistant that classifies waste as recycling, compost, garbage, or unknown.</p>
-    </td>
-  </tr>
-</table>
+The repository includes CI, typed-package metadata, a release audit, and a test suite with a 90% minimum branch-coverage gate. I publish measured benchmark and coverage results with releases rather than guessing at performance numbers.
 
-### tools i use
+## Selected work
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,arduino,terraform,docker,linux&theme=dark" alt="Python, Git, GitHub, VS Code, Arduino, Terraform, Docker, and Linux" />
-  <a href="https://antigravity.google/">
-    <img height="48" src="https://antigravity.google/assets/image/antigravity-logo.png" alt="Google Antigravity" title="Google Antigravity" />
-  </a>
-</p>
+### [Bhuvanesh Aerospace Controls](https://github.com/BhuvaneshN09/bhuvanesh-aerospace-controls)
 
+An educational, dependency-light quadrotor PID toolkit: bounded PID control, X-frame motor mixing, deterministic roll and three-axis attitude simulation, CSV telemetry, and optional Matplotlib plots. It is explicitly a simulation and is **not flight-certified**.
 
+### [BinlyticAI](https://github.com/BhuvaneshN09/BinlyticAI)
 
-<p align="center">
- 
-</p>
+An AI-assisted waste-sorting project focused on making recycling decisions easier to understand. Model accuracy and latency should be reported from a reproducible evaluation set before being presented as production metrics.
 
-<p align="center">
-  <img src="assets/stats.svg" alt="contribution total and weekly sparkline" width="460" /><br />
-  <img src="assets/streak.svg" alt="current and longest contribution streaks" width="460" /><br />
-  <img src="assets/langs.svg" alt="top languages by bytes and by repo" width="460" /><br />
-  <img src="assets/year.svg" alt="the last year, one character per day" width="700" />
-</p>
+### [Chess Engine](https://github.com/BhuvaneshN09/Chess-Engine)
 
-<p align="center">
+A focused exploration of chess search and evaluation, including alpha-beta search and UCI-oriented engine work.
 
+## Engineering practice
 
-<p align="center">
-  <img src="assets/heading-credits.svg" alt="credits" width="600" />
-</p>
+- Small, typed interfaces with explicit failure modes
+- Tests for edge cases and serialization boundaries
+- CI and release checks for maintained libraries
+- Architecture notes and runnable examples before adding abstraction
+- Honest metrics: measured, reproducible, and tied to a commit or release
 
-- feel free to look through my projects!
+## Connect
+
+- [GitHub repositories](https://github.com/BhuvaneshN09)
+- [FuncWire on PyPI](https://pypi.org/project/funcwire/)
+- [Email](mailto:bhuvanallapati@gmail.com)
+
+I am open to thoughtful collaboration on developer infrastructure, educational tools, and robotics simulations.
