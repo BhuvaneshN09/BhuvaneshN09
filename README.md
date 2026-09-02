@@ -6,7 +6,8 @@
   <img src="assets/heading-about.svg" alt="about" width="600" />
 </p>
 
-<h1 align="left">Hello. I am Bhuvanesh. A highschool student and developer</h1>
+<h1 align="left">Hello.</h1>
+<h2 align=";left"> I'm a high school student and developer </h2>
 
 I like turning interesting ideas into working software and hardware.
 
