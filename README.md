@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="left">Hello.</h1>
-<h2 align=";left"> I'm a high school student and developer </h2>
+<h2 align=";left"> I'm a high school student and developer who likes building software. Feel free to look through my repositories! </h2>
 
 I like turning interesting ideas into working software and hardware.
 
